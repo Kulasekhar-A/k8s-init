@@ -50,7 +50,7 @@ spec:
           mountPath: /secrets
       containers:
       - name: mysql
-        image: annurukulasekhar/mysql:1.5.0
+        image: annurukulasekhar/mysql:1.4.0
         envFrom:
         - secretRef:
            name: mysql
